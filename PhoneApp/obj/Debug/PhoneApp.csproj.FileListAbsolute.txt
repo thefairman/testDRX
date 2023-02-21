@@ -28,3 +28,4 @@ D:\Work\test\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.csproj.CoreComp
 D:\Work\test\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.csproj.CopyComplete
 D:\Work\test\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.exe
 D:\Work\test\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.pdb
+D:\Work\test\PhonePluginsApplication\PhoneApp\bin\Debug\DummyEmployeesLoader.Plugin.dll

@@ -64,6 +64,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DummyEmployeesLoader.Plugin.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="EmployeesLoader.Plugin.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

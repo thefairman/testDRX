@@ -22,6 +22,10 @@ namespace EmployeesLoaderPlugin
       var employeesList = Newtonsoft.Json.JsonConvert.DeserializeObject<List<EmployeesDTO>>(EmployeesLoaderPlugin.Properties.Resources.EmployeesJson);
 
       logger.Info($"Loaded {employeesList.Count()} employees");
+        if (args is IEnumerable<EmployeesDTO> existEmployees && existEmployees != null)
+        {
+            return existEmployees.Concat(employeesList);
+        }
       return employeesList.Cast<DataTransferObject>();
     }
   }
