@@ -59,4 +59,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /y  "$(ProjectDir)$(OutDir)\EmployeesViewerPlugin.dll" "$(ProjectDir)..\PhoneApp\EmployeesViewer.Plugin.dll"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
 </Project>
