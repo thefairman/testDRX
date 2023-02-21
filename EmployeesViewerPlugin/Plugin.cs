@@ -57,7 +57,7 @@ namespace EmployeesLoaderPlugin
             {
               logger.Error("Not an index or not an int value!");
             } else {
-              if(indexToDelete > 0 && indexToDelete < employeesList.Count())
+              if(indexToDelete >= 0 && indexToDelete < employeesList.Count())
               {
                 employeesList.RemoveAt(indexToDelete);
               }
